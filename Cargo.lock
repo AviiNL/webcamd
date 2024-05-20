@@ -1686,21 +1686,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "streamer2"
-version = "0.1.0"
-dependencies = [
- "eye-hal",
- "image",
- "imageproc",
- "reqwest",
- "rusttype",
- "serde_json",
- "time",
- "tokio",
- "turbojpeg",
-]
-
-[[package]]
 name = "strsim"
 version = "0.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2185,6 +2170,21 @@ checksum = "77afa9a11836342370f4817622a2f0f418b134426d91a82dfb48f532d2ec13ef"
 dependencies = [
  "js-sys",
  "wasm-bindgen",
+]
+
+[[package]]
+name = "webcamd"
+version = "0.1.0"
+dependencies = [
+ "eye-hal",
+ "image",
+ "imageproc",
+ "reqwest",
+ "rusttype",
+ "serde_json",
+ "time",
+ "tokio",
+ "turbojpeg",
 ]
 
 [[package]]
