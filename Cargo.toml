@@ -1,0 +1,23 @@
+[package]
+name = "streamer2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
+eye-hal = { git = "https://github.com/raymanfx/eye-rs", branch = "master" }
+image = "0.24.9"
+turbojpeg = { version = "1.1.0", features = ["image"] }
+imageproc = "0.23.0"
+rusttype = "0.9.3"
+time = {version = "0.3.36", features = ["formatting"] }
+reqwest = { version = "0.12.4", features = ["json", "rustls-tls"], default-features = false }
+serde_json = "1.0.117"
+
+# spmc = "0.3.0"
+# rayon = "1.10.0"
+# ezk-image = { version = "0.1.0", features = ["unstable"] }
+# flume = "0.11.0"
+# ffmpeg = { git = "https://github.com/meh/rust-ffmpeg.git" }
